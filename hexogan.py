@@ -9,7 +9,7 @@ begin_fill()
 for i in range (outside):
     fd(100)
     for j in range(inside):
-        fd(50)
+        fd(100)
         lt(360/inside)  
     lt(360/outside)
 end_fill()
