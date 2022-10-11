@@ -13,4 +13,7 @@ print(m)
 
 fruits.pop(3) #remove element by index
 fruits.pop()  # remove last elements(defult)
-print(fruits)
+print(fruits)        
+
+
+

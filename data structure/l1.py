@@ -1,8 +1,4 @@
-from xml.dom.minidom import Element
-
-
 Elements = ["hydrogrn","helium","lithium"]
-
 print(Elements)
 print('individual element:')
 print(Elements[2])
