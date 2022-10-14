@@ -17,11 +17,9 @@ print(last_letters)
 
 names = ['Project Manager','Central Processing unit','Graphics Proceesing unit','Random Access Memory','input Output']
 
-short_names =[]
 for name in names:
-    short_names.append(name[0:8])
+    short_names = (p1[0]for p1 in name.split())
+    print(name,'----->',*short_names,sep='.')
 
-print(names)
-print(short_names)    
 
 

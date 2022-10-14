@@ -7,10 +7,14 @@ while x!=10:
 
 # sum of all number from 1 to given numbeer
 
-n = int(input("Enter number"))
+a = int(input("Enter number"))
 sum = 0
-for num in range(1, n + 1, 1):
+for num in range(1, a + 1, 1):
      sum = sum + num
 print("Sum of numbers is: ", sum)
 
+#a program to print multiplication table of a given number
 
+n = int (input('enter number'))
+multiple = 1
+ 

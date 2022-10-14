@@ -10,3 +10,4 @@ x_min = min(x)
 print(f'sum: {total}, Mean : {mean},Max : {x_max}, Min :{x_min} ')
 
 median
+
