@@ -3,7 +3,7 @@ print(x)
 print(type(x))
 
 #assignment in python
-a,b= 10,20 #2 value are store in 2 variable
+a,  b= 10,20 #2 value are store in 2 variable
 print(a,b)
 a = 10,20 # 2 values are packed in one variable
 print(a , type(a))
