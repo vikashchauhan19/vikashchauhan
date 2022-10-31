@@ -7,3 +7,4 @@ def draw():
     # display the image on the screen at (100, 100 ) coordinates
     screen.blit('ironman',(100, 100))
 pgzrun.go()
+         
