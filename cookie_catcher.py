@@ -38,6 +38,12 @@ def player_control():
         p.angle = -20
     else:
         p.angle = 0
+    #boundary 
+    if p.x < 0:
+        p.x = WIDTH
+    if p . x > WIDTH:
+        p.x = 0
+
 
     
 
