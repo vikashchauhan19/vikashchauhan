@@ -2,9 +2,9 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 
-# 1. get thge webpage as soup
-# 2. extract the data
-# # 3. save the data 
+# 1. get the webpage as soup
+# 2. extract the data from webpage
+# 3. save the data 
 # 4. bind everything together
 def get (url):
     page = requests.get(url)
