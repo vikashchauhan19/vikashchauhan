@@ -13,10 +13,12 @@ for i,v in enumerate(m):
     slice2= s[1:4]
     slice3 = s[-1:]
     slice4 = s[4:]
+    slice5 = s[4:len(s)]
     print(slice1)
     print(slice2)
     print(slice3)
     print(slice4)
+    print(slice5)
 
 
     amt = '$3000'
