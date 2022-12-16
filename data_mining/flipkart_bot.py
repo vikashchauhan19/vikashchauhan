@@ -62,7 +62,7 @@ def main():
     pos = 1
     product = 'television'
     datalist = []
-    while true:
+    while True:
         url = 'https://www.flipkart.com/search?q=television&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_4_2_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_4_2_na_na_na&as-pos=4&as-type=RECENT&suggestionId=television&requestId=c7e40dfc-3eb2-4676-8fcc-33f82536628f&as-backfill=on'
         print(url)
         soup = get(url)
