@@ -57,7 +57,7 @@ st.dataframe(subset, use_container_width=True)
 
 fig = px.line(df.sort_values('popularity').head(100), x='popularity', )
 st.plotly_chart(fig, use_container_width=True)
-fig= px.bar
+
 
 
 
