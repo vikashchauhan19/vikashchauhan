@@ -1,6 +1,7 @@
 name = "Leonardo"
-
+s =name[2:len(name)] 
 print(name[0])
+print(s)
 
 print(name[1])
 

@@ -11,10 +11,12 @@ for i,v in enumerate(m):
     s = 'digipodium'
     slice1 = s[0:4]
     slice2= s[1:4]
-    slice3 = s[-1:]
+    slice8= s[-1:]
+    slice3 = s[:-1]
     slice4 = s[4:]
     slice5 = s[4:len(s)]
     print(slice1)
+    print(slice8)
     print(slice2)
     print(slice3)
     print(slice4)
